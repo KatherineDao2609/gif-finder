@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway&display=swap');
+
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 300vh;
+  padding: 40px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.container {
+    width: calc(200px * 4 + 3em);
+    margin: auto;
+}
+
+#results {
+  columns: 4;
+  column-gap: 1em; 
+  margin-top: 1em;
+}
+
+.item {
+  margin-bottom: 1em;
+}
+
+
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+
+}
+
+.mid {
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    padding: 0px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+.emphasized {
+  font-style: italic;
+  font-size: 12px;
+}
+
+
+form input{
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 1rem 0;
+    outline: none;
+    text-align: center;
+    border-radius: 25px;
+    border: none;
+    width: 87%;
+  
+}
+
+
+button{
+    padding: 1rem 0;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    width: 100px;
+    color: #212121;
+    background: yellow;
+    margin: 2rem auto 0 auto;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background: #252525;
+    color: #fff;
+    
+}
+
+#trending-container {
+   width: calc(200px * 4 + 3em);
+   margin: auto;
+}
+
+.footer{
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    padding: 20px;
+
+
+}
+
+
+
+
+
